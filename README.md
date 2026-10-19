@@ -13,8 +13,31 @@ El proyecto se compone de dos aplicaciones:
 
 ---
 
+## Activar el historial de portapapeles (multiportapapeles)
+
+Por defecto, Windows solo guarda **un único texto** en el portapapeles: cada vez que copias algo, se sobrescribe lo anterior. Para poder conservar **varios textos** y elegirlos después, hay que activar el **historial de portapapeles** de Windows.
+
+WinClip depende de ese historial: copia varios snippets seguidos y tú los recuperas después con **Win + V**. Si el historial no está activado, solo tendrás disponible el último texto copiado.
+
+1. Pulsa **Win + V** en cualquier momento.
+2. Si es la primera vez, aparecerá un aviso: pulsa **Activar**.
+3. Si no aparece el aviso:
+   - Abre **Configuración** (`Win + I`).
+   - Ve a **Sistema → Portapapeles**.
+   - Activa **Historial de portapapeles**.
+4. Opcional recomendado:
+   - Activa **Sincronizar entre dispositivos** si quieres compartir el historial.
+   - Activa **Anclar** elementos frecuentes para que no se borren.
+
+Para comprobarlo: copia un texto con **Ctrl + C**, pulsa **Win + V** y debería aparecer en la lista.
+
+> Nota: el historial guarda un número limitado de elementos (los más recientes). Si copias muchos snippets seguidos, los más antiguos pueden desaparecer.
+
+---
+
 ## Índice
 
+- [Activar el historial de portapapeles (multiportapapeles)](#activar-el-historial-de-portapapeles-multiportapapeles)
 - [Cómo funciona](#cómo-funciona)
 - [Requisitos](#requisitos)
 - [Estructura del proyecto](#estructura-del-proyecto)
