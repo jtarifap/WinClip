@@ -1,0 +1,16 @@
+# Configuración real (contiene la clave y los snippets)
+clipboard_snippets.config.json
+
+# Ejecutables compilados
+*.exe
+
+# Carpetas con datos de prueba / copias antiguas
+Backup/
+test/
+
+# Documentación antigua
+Leeme_WinClip.txt
+README.clipboard_snippets.md
+
+# Logs
+*.log

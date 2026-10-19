@@ -1,0 +1,10 @@
+{
+  "passwordHash": "PUT_SHA256_BASE64_DE_LA_CLAVE",
+  "pbkdf2Iterations": 150000,
+  "portapapelesEnc": "PUT_BASE64_CIPHERTEXT",
+  "portapapelesSalt": "PUT_BASE64_SALT",
+  "portapapelesIv": "PUT_BASE64_IV",
+  "portapapelesHmac": "PUT_BASE64_HMAC",
+  "copyDelayMs": 300,
+  "clearAfterMs": 0
+}
